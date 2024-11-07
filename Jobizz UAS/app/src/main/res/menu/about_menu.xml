@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/priv"
+            android:title="Privacy"
+            android:icon="@drawable/privacy_icon"
+            />
+
+        <item
+            android:id="@+id/termcond"
+            android:title="Terms and Condition"
+            android:icon="@drawable/terms_cond_icon"
+            />
+
+        <item
+            android:id="@+id/helpcenter"
+            android:title="Help Center"
+            android:icon="@drawable/helpcen_icon"
+            />
+
+        <item
+            android:id="@+id/supp"
+            android:title="Support"
+            android:icon="@drawable/supp_icon"
+            />
+
+        <item
+            android:id="@+id/about"
+            android:title="About"
+            android:icon="@drawable/about_icon"
+            />
+
+    </group>
+</menu>

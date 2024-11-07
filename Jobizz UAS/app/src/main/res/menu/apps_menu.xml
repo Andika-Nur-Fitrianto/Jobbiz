@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/profvis"
+            android:title="Profile Visibility"
+            android:icon="@drawable/prof_vis_icon"
+            />
+
+        <item
+            android:id="@+id/notif"
+            android:title="Notification"
+            android:icon="@drawable/notif_icon"
+            />
+
+        <item
+            android:id="@+id/changepass"
+            android:title="Change Password"
+            android:icon="@drawable/change_pass_icon"
+            />
+
+        <item
+            android:id="@+id/lang"
+            android:title="Language"
+            android:icon="@drawable/lang_icon"
+            />
+
+        <item
+            android:id="@+id/theme"
+            android:title="Theme"
+            android:icon="@drawable/theme_icon"
+            />
+
+        <item
+            android:id="@+id/del"
+            android:title="Delete Account"
+            android:icon="@drawable/del_icon"
+            />
+
+    </group>
+</menu>

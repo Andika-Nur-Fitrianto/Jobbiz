@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_marginTop="40dp"
+    tools:context=".EditCovletFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ll_covlet1">
+
+        <TextView
+            android:id="@+id/tv_covlet_edit1"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="32dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Save"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_covlet_del1"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Delete"
+            android:textAlignment="center"
+            app:layout_constraintLeft_toRightOf="@id/tv_covlet_edit1"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_covlet_change"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Change"
+            android:textAlignment="center"
+            app:layout_constraintLeft_toRightOf="@id/tv_covlet_del1"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+    >
+
+        <ImageView
+            android:id="@+id/image_covlet_edit"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/coverletters"
+            app:layout_constraintTop_toTopOf="parent"
+             />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>
